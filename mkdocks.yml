@@ -1,0 +1,18 @@
+site_name: Music Explorations
+site_description: "An informational site about music — genres, instruments, artists and more."
+site_url: "https://jhall6550.github.io/music-site"  # <-- replace music-site with your repo name
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Genres:
+      - Rock: genres/rock.md
+      - Jazz: genres/jazz.md
+  - Instruments: instruments.md
+  - Gallery: gallery.md
+  - About: about.md
+plugins: []
+extra:
+  social:
+    - type: github
+      link: https://github.com/jhall6550
